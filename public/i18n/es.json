@@ -1,0 +1,48 @@
+{
+  "app": {
+    "name": "Finance Tracker",
+    "loading": "Cargando…"
+  },
+  "nav": {
+    "dashboard": "Resumen",
+    "transactions": "Movimientos",
+    "import": "Importar",
+    "accounts": "Cuentas",
+    "budgets": "Presupuestos",
+    "categories": "Categorías",
+    "logout": "Cerrar sesión"
+  },
+  "auth": {
+    "loginTitle": "Iniciá sesión",
+    "registerTitle": "Creá tu cuenta",
+    "email": "Email",
+    "password": "Contraseña",
+    "passwordHint": "Mínimo 8 caracteres",
+    "baseCurrency": "Moneda de reporte",
+    "login": "Entrar",
+    "register": "Crear cuenta",
+    "noAccount": "¿No tenés cuenta?",
+    "hasAccount": "¿Ya tenés cuenta?",
+    "goRegister": "Registrate",
+    "goLogin": "Iniciá sesión",
+    "errors": {
+      "invalidCredentials": "Email o contraseña incorrectos",
+      "emailTaken": "Ese email ya está registrado",
+      "generic": "Algo salió mal. Probá de nuevo."
+    }
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "retry": "Reintentar",
+    "comingSoon": "En construcción",
+    "comingSoonBody": "Esta pantalla llega en el próximo milestone."
+  },
+  "theme": {
+    "light": "Tema claro",
+    "dark": "Tema oscuro"
+  }
+}

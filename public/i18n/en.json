@@ -1,0 +1,48 @@
+{
+  "app": {
+    "name": "Finance Tracker",
+    "loading": "Loading…"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "transactions": "Transactions",
+    "import": "Import",
+    "accounts": "Accounts",
+    "budgets": "Budgets",
+    "categories": "Categories",
+    "logout": "Log out"
+  },
+  "auth": {
+    "loginTitle": "Sign in",
+    "registerTitle": "Create your account",
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "At least 8 characters",
+    "baseCurrency": "Reporting currency",
+    "login": "Sign in",
+    "register": "Create account",
+    "noAccount": "No account yet?",
+    "hasAccount": "Already have an account?",
+    "goRegister": "Register",
+    "goLogin": "Sign in",
+    "errors": {
+      "invalidCredentials": "Wrong email or password",
+      "emailTaken": "That email is already registered",
+      "generic": "Something went wrong. Try again."
+    }
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "retry": "Retry",
+    "comingSoon": "Under construction",
+    "comingSoonBody": "This screen lands in the next milestone."
+  },
+  "theme": {
+    "light": "Light theme",
+    "dark": "Dark theme"
+  }
+}
