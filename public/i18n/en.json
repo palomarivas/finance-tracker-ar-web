@@ -31,6 +31,34 @@
       "generic": "Something went wrong. Try again."
     }
   },
+  "dashboard": {
+    "netWorth": "Net worth",
+    "asOf": "valued at",
+    "income": "Income",
+    "expenses": "Expenses",
+    "net": "Net",
+    "spendByCategory": "Spend by category",
+    "budgets": "Budgets",
+    "noBudgets": "No budgets for this month",
+    "createBudget": "Create one under Budgets",
+    "accounts": "Accounts",
+    "rates": "Dollar today",
+    "buy": "buy",
+    "sell": "sell",
+    "monthEmpty": "No activity this month",
+    "emptyTitle": "No data yet",
+    "emptyBody": "Import a statement to see your numbers here.",
+    "goImport": "Go to Import",
+    "loadError": "We could not load this section",
+    "valuedWith": "at {{rate}} {{side}}",
+    "types": {
+      "CHECKING": "Checking",
+      "SAVINGS": "Savings",
+      "CREDIT_CARD": "Credit card",
+      "WALLET": "Wallet",
+      "CASH": "Cash"
+    }
+  },
   "common": {
     "save": "Save",
     "cancel": "Cancel",

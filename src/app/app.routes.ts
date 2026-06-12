@@ -25,7 +25,7 @@ export const routes: Routes = [
         path: '',
         pathMatch: 'full',
         loadComponent: () =>
-          import('./features/placeholder').then((m) => m.Placeholder),
+          import('./features/dashboard/dashboard').then((m) => m.Dashboard),
       },
       ...['transactions', 'import', 'accounts', 'budgets', 'categories'].map(
         (path) => ({

@@ -31,6 +31,34 @@
       "generic": "Algo salió mal. Probá de nuevo."
     }
   },
+  "dashboard": {
+    "netWorth": "Patrimonio neto",
+    "asOf": "valuado al",
+    "income": "Ingresos",
+    "expenses": "Gastos",
+    "net": "Neto",
+    "spendByCategory": "Gastos por categoría",
+    "budgets": "Presupuestos",
+    "noBudgets": "Sin presupuestos para este mes",
+    "createBudget": "Creá uno en Presupuestos",
+    "accounts": "Cuentas",
+    "rates": "Dólar hoy",
+    "buy": "compra",
+    "sell": "venta",
+    "monthEmpty": "Sin movimientos este mes",
+    "emptyTitle": "Todavía no hay datos",
+    "emptyBody": "Importá un resumen o extracto para ver tus números acá.",
+    "goImport": "Ir a Importar",
+    "loadError": "No pudimos cargar esta sección",
+    "valuedWith": "al {{rate}} {{side}}",
+    "types": {
+      "CHECKING": "Cuenta corriente",
+      "SAVINGS": "Caja de ahorro",
+      "CREDIT_CARD": "Tarjeta de crédito",
+      "WALLET": "Billetera",
+      "CASH": "Efectivo"
+    }
+  },
   "common": {
     "save": "Guardar",
     "cancel": "Cancelar",

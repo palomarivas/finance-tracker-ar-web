@@ -77,3 +77,56 @@ export interface ExchangeRate {
   sellCents: number;
   source: string;
 }
+
+// ---------------------------------------------------------------- reports
+
+export interface MonthlySummary {
+  month: string;
+  incomeArsCents: number;
+  expenseArsCents: number;
+  netArsCents: number;
+}
+
+export interface SpendByCategoryItem {
+  categoryId: string | null;
+  categoryName: string;
+  /** Negative cents (expenses). */
+  spentArsCents: number;
+  sharePct: number;
+}
+
+export interface SpendByCategoryReport {
+  month: string;
+  totalArsCents: number;
+  items: SpendByCategoryItem[];
+}
+
+export interface BudgetVsActualItem {
+  budgetId: string;
+  categoryId: string;
+  categoryName: string;
+  budgetCents: number;
+  actualCents: number;
+  remainingCents: number;
+  usedPct: number;
+}
+
+export interface BudgetVsActualReport {
+  month: string;
+  items: BudgetVsActualItem[];
+}
+
+export interface NetWorthAccount {
+  accountId: string;
+  name: string;
+  type: AccountType;
+  balances: Partial<Record<Currency, number>>;
+  valueArsCents: number;
+  rateUsed: { rateType: RateType; date: string; buyCents: number } | null;
+}
+
+export interface NetWorthReport {
+  asOf: string;
+  totalArsCents: number;
+  accounts: NetWorthAccount[];
+}
