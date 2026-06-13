@@ -27,13 +27,15 @@ export const routes: Routes = [
         loadComponent: () =>
           import('./features/dashboard/dashboard').then((m) => m.Dashboard),
       },
-      ...['transactions', 'import', 'accounts', 'budgets', 'categories'].map(
-        (path) => ({
-          path,
-          loadComponent: () =>
-            import('./features/placeholder').then((m) => m.Placeholder),
-        }),
-      ),
+      {
+        path: 'import',
+        loadComponent: () => import('./features/import/import-page').then((m) => m.ImportPage),
+      },
+      ...['transactions', 'accounts', 'budgets', 'categories'].map((path) => ({
+        path,
+        loadComponent: () =>
+          import('./features/placeholder').then((m) => m.Placeholder),
+      })),
     ],
   },
   { path: '**', redirectTo: '' },

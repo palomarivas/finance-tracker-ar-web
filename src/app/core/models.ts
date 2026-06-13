@@ -130,3 +130,40 @@ export interface NetWorthReport {
   totalArsCents: number;
   accounts: NetWorthAccount[];
 }
+
+// ---------------------------------------------------------------- import
+
+export type ImportBatchStatus = 'PENDING' | 'PROCESSING' | 'COMPLETED' | 'FAILED';
+
+export interface ImportSummary {
+  batchId: string;
+  parser: string;
+  imported: number;
+  skipped: number;
+  uncategorized: number;
+}
+
+export interface ImportBatch {
+  id: string;
+  filename: string;
+  status: ImportBatchStatus;
+  rowsImported: number;
+  rowsSkipped: number;
+  errorMessage: string | null;
+  account?: Account;
+  createdAt: string;
+}
+
+export type StatementStatus = 'OPEN' | 'PAID';
+
+export interface CreditCardStatement {
+  id: string;
+  closingDate: string;
+  dueDate: string;
+  paymentCurrency: Currency;
+  status: StatementStatus;
+  account?: Account;
+  usdSpendCents: number;
+  perceptionArsCents: number;
+  createdAt: string;
+}
