@@ -107,6 +107,57 @@
     "colCategory": "Category",
     "colAmount": "Amount"
   },
+  "accounts": {
+    "title": "Accounts",
+    "new": "New account",
+    "name": "Name",
+    "type": "Type",
+    "institution": "Institution",
+    "currency": "Currency",
+    "valuationRate": "Valuation rate",
+    "empty": "No accounts yet",
+    "deleteConfirm": "Delete this account and all its transactions?"
+  },
+  "budgets": {
+    "title": "Budgets",
+    "new": "New budget",
+    "category": "Category",
+    "amount": "Monthly cap",
+    "empty": "No budgets for this month",
+    "deleteConfirm": "Delete this budget?",
+    "duplicate": "A budget for that category already exists this month"
+  },
+  "categories": {
+    "title": "Categories",
+    "tabCategories": "Categories",
+    "tabRules": "Rules",
+    "system": "System",
+    "name": "Name",
+    "kind": "Kind",
+    "income": "Income",
+    "expense": "Expense",
+    "parent": "Parent category",
+    "none": "No parent",
+    "new": "New category",
+    "empty": "No categories",
+    "deleteConfirm": "Delete this category?"
+  },
+  "rules": {
+    "new": "New rule",
+    "category": "Category",
+    "matchType": "Match",
+    "pattern": "Pattern",
+    "priority": "Priority",
+    "contains": "Contains",
+    "startsWith": "Starts with",
+    "regex": "Regex",
+    "tester": "Test a description",
+    "testerPlaceholder": "e.g. MERPAGO*SUBE",
+    "testerMatch": "Matches {{category}}",
+    "testerNoMatch": "No rule matches",
+    "empty": "No rules. Create one to auto-categorize.",
+    "deleteConfirm": "Delete this rule?"
+  },
   "common": {
     "save": "Save",
     "cancel": "Cancel",

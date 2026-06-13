@@ -107,6 +107,57 @@
     "colCategory": "Categoría",
     "colAmount": "Monto"
   },
+  "accounts": {
+    "title": "Cuentas",
+    "new": "Nueva cuenta",
+    "name": "Nombre",
+    "type": "Tipo",
+    "institution": "Institución",
+    "currency": "Moneda",
+    "valuationRate": "Cotización para valuar",
+    "empty": "Todavía no tenés cuentas",
+    "deleteConfirm": "¿Eliminar esta cuenta y todos sus movimientos?"
+  },
+  "budgets": {
+    "title": "Presupuestos",
+    "new": "Nuevo presupuesto",
+    "category": "Categoría",
+    "amount": "Tope mensual",
+    "empty": "Sin presupuestos para este mes",
+    "deleteConfirm": "¿Eliminar este presupuesto?",
+    "duplicate": "Ya existe un presupuesto para esa categoría este mes"
+  },
+  "categories": {
+    "title": "Categorías",
+    "tabCategories": "Categorías",
+    "tabRules": "Reglas",
+    "system": "Sistema",
+    "name": "Nombre",
+    "kind": "Tipo",
+    "income": "Ingreso",
+    "expense": "Gasto",
+    "parent": "Categoría padre",
+    "none": "Sin padre",
+    "new": "Nueva categoría",
+    "empty": "Sin categorías",
+    "deleteConfirm": "¿Eliminar esta categoría?"
+  },
+  "rules": {
+    "new": "Nueva regla",
+    "category": "Categoría",
+    "matchType": "Coincidencia",
+    "pattern": "Patrón",
+    "priority": "Prioridad",
+    "contains": "Contiene",
+    "startsWith": "Empieza con",
+    "regex": "Regex",
+    "tester": "Probá una descripción",
+    "testerPlaceholder": "Ej: MERPAGO*SUBE",
+    "testerMatch": "Coincide con {{category}}",
+    "testerNoMatch": "Ninguna regla coincide",
+    "empty": "Sin reglas. Creá una para auto-categorizar.",
+    "deleteConfirm": "¿Eliminar esta regla?"
+  },
   "common": {
     "save": "Guardar",
     "cancel": "Cancelar",

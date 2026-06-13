@@ -40,7 +40,27 @@ export interface Category {
   name: string;
   kind: CategoryKind;
   parent?: Category | null;
-  /** Absent user relation = shared system default (read-only). */
+  /** Owner id, or null for a shared system default (read-only). */
+  user?: string | null;
+  createdAt: string;
+}
+
+export type RuleMatchType = 'CONTAINS' | 'STARTS_WITH' | 'REGEX';
+
+export interface Rule {
+  id: string;
+  matchType: RuleMatchType;
+  pattern: string;
+  priority: number;
+  category: Category;
+  createdAt: string;
+}
+
+export interface Budget {
+  id: string;
+  amountCents: number;
+  periodMonth: string;
+  category: Category;
   createdAt: string;
 }
 

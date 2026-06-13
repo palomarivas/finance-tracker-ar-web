@@ -36,11 +36,19 @@ export const routes: Routes = [
         loadComponent: () =>
           import('./features/transactions/transactions-page').then((m) => m.TransactionsPage),
       },
-      ...['accounts', 'budgets', 'categories'].map((path) => ({
-        path,
+      {
+        path: 'accounts',
+        loadComponent: () => import('./features/accounts/accounts-page').then((m) => m.AccountsPage),
+      },
+      {
+        path: 'budgets',
+        loadComponent: () => import('./features/budgets/budgets-page').then((m) => m.BudgetsPage),
+      },
+      {
+        path: 'categories',
         loadComponent: () =>
-          import('./features/placeholder').then((m) => m.Placeholder),
-      })),
+          import('./features/categories/categories-page').then((m) => m.CategoriesPage),
+      },
     ],
   },
   { path: '**', redirectTo: '' },
