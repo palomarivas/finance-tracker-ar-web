@@ -92,6 +92,21 @@
     "open": "Abierto",
     "paidIn": "Pagado en {{currency}}"
   },
+  "tx": {
+    "title": "Movimientos",
+    "allAccounts": "Todas las cuentas",
+    "allCategories": "Todas las categorías",
+    "onlyUncategorized": "Solo sin categorizar",
+    "uncategorized": "Sin categoría",
+    "empty": "Sin movimientos para este filtro",
+    "transfer": "Transferencia",
+    "pageInfo": "{{from}}–{{to}} de {{total}}",
+    "colDate": "Fecha",
+    "colDescription": "Descripción",
+    "colAccount": "Cuenta",
+    "colCategory": "Categoría",
+    "colAmount": "Monto"
+  },
   "common": {
     "save": "Guardar",
     "cancel": "Cancelar",

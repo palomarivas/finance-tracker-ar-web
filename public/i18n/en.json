@@ -92,6 +92,21 @@
     "open": "Open",
     "paidIn": "Paid in {{currency}}"
   },
+  "tx": {
+    "title": "Transactions",
+    "allAccounts": "All accounts",
+    "allCategories": "All categories",
+    "onlyUncategorized": "Only uncategorized",
+    "uncategorized": "Uncategorized",
+    "empty": "No transactions for this filter",
+    "transfer": "Transfer",
+    "pageInfo": "{{from}}–{{to}} of {{total}}",
+    "colDate": "Date",
+    "colDescription": "Description",
+    "colAccount": "Account",
+    "colCategory": "Category",
+    "colAmount": "Amount"
+  },
   "common": {
     "save": "Save",
     "cancel": "Cancel",

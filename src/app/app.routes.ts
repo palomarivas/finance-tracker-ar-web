@@ -31,7 +31,12 @@ export const routes: Routes = [
         path: 'import',
         loadComponent: () => import('./features/import/import-page').then((m) => m.ImportPage),
       },
-      ...['transactions', 'accounts', 'budgets', 'categories'].map((path) => ({
+      {
+        path: 'transactions',
+        loadComponent: () =>
+          import('./features/transactions/transactions-page').then((m) => m.TransactionsPage),
+      },
+      ...['accounts', 'budgets', 'categories'].map((path) => ({
         path,
         loadComponent: () =>
           import('./features/placeholder').then((m) => m.Placeholder),
