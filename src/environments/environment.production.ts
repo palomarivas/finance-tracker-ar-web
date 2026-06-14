@@ -1,5 +1,6 @@
 export const environment = {
   production: true,
-  // Set to the deployed API origin before the production deploy.
-  apiUrl: 'https://finance-tracker-ar.example.com',
+  // The Render API URL. If Render appended a suffix to the service name,
+  // update this to match (then redeploy on Vercel).
+  apiUrl: 'https://finance-tracker-ar-api.onrender.com',
 };
